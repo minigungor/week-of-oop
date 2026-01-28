@@ -18,6 +18,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -64,7 +69,9 @@
       <workItem from="1769513609225" duration="8261000" />
       <workItem from="1769537172652" duration="1483000" />
       <workItem from="1769559691489" duration="2485000" />
-      <workItem from="1769596994852" duration="6384000" />
+      <workItem from="1769596994852" duration="6453000" />
+      <workItem from="1769610251017" duration="636000" />
+      <workItem from="1769615577819" duration="5725000" />
     </task>
     <servers />
   </component>
