@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="" />
+    <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,10 +62,24 @@
       <workItem from="1769481468746" duration="2502000" />
       <workItem from="1769506950069" duration="3348000" />
       <workItem from="1769513609225" duration="8261000" />
+      <workItem from="1769537172652" duration="1483000" />
+      <workItem from="1769559691489" duration="2485000" />
+      <workItem from="1769596994852" duration="6384000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
