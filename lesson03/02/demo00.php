@@ -16,7 +16,12 @@ abstract public function voice();
 
 }
 
-class Dog extends Animal
+interface Eatable
+{
+
+}
+
+class Dog extends Animal implements Eatable
 {
 public function voice()
 {
@@ -29,7 +34,7 @@ public function catch()
 }
 }
 
-class Cat extends Animal
+class Cat extends Animal implements Eatable
 {
 public function voice()
 {
@@ -44,13 +49,22 @@ public function voice()
 return 'roar';
 }
 
-public function eat($animal)
+public function eat($food)
 {
-if($animal instanceof Tiger) {
+if($food instanceof Eatable) {
 throw new \Exception('I am not...');
 }
 }
 }
+
+class Skuns extends Animal
+{
+    public function voice() {
+        return 'mph-mph';
+    }
+
+}
+
 
 $dog = new Dog();
 echo $dog->voice();
@@ -65,3 +79,7 @@ echo $tiger->voice();
 echo $tiger->sleep();
 echo $tiger->eat($cat);
 echo $tiger->eat($dog);
+
+$skuns = new Skuns();
+echo $skuns->voice();
+echo $tiger->eat($skuns);
