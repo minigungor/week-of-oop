@@ -5,41 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo05/tests/CartTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo05/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo06/cart/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo06/tests/CartTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo06/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo07/tests/CartTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo07/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/CartItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/HybridStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/SessionStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/StorageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/YiiDbStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/YiiHybridStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/cart/storage/YiiSessionStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/tests/CartTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo08/tests/storage/SessionStorageTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/CartItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/cost/CalculatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/cost/SimpleCost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/HybridStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/SessionStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/StorageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/YiiDbStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/YiiHybridStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/cart/storage/YiiSessionStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/tests/CartTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/tests/cost/SimpleCostTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson04/02/demo09/tests/storage/SessionStorageTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -68,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson04/02/demo09",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/thm/projects/week-of-oop/lesson04/02/demo09&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
@@ -136,7 +101,8 @@
       <workItem from="1769905663984" duration="4137000" />
       <workItem from="1769910747135" duration="311000" />
       <workItem from="1769911079916" duration="5430000" />
-      <workItem from="1769952766316" duration="17272000" />
+      <workItem from="1769952766316" duration="17996000" />
+      <workItem from="1769988070995" duration="1318000" />
     </task>
     <servers />
   </component>
