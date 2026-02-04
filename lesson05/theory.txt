@@ -1,0 +1,15 @@
+            UserSignUpEvent
+            public $user;
+         -[             ]-
+       /    |        |    \
+    /       |        |      \
+[user] [  blog  ]  [ forum ]  [shop.buyer].addBuyer($event->user->email, $event->user->name)
+
+                                                                                  /---- Db
+               ------ Cart ---- StorageInterface (load(), save())                ------ $_SESSION['cart']
+             /
+ShopService  -------- MailerInterface send($email, $message)                     ------ new SwiftMailer(...)
+            \                                                                     \------ mail ($email)
+             \
+              ------- SmsSenderInterface send($phone, $message)                  ---- new MTSSender {new SoalClient($wsdl) }
+                                                                                  \---- new MegafonSender ( ... ) { ... }
