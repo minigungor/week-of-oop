@@ -1,34 +1,34 @@
 <?php
 
-namespace lesson04\example4\demo05;
+namespace lesson04\example4\demo06;
 
 use lesson04\example4\cart\Cart;
 use lesson04\example4\cart\cost\SimpleCost;
 use lesson04\example4\cart\storage\SessionStorage;
-use Pimple;
+use Pimple\Container;
 
 require __DIR__ . '/vendor/autoload.php';
 
 ###########
 
-$container = new Pimple();
+$container = new Container();
 
 $container['cart.storage.session_key'] = 'cart';
 
-$container['cart.storage.session'] = function (Pimple $container) {
+$container['cart.storage.session'] = $container->factory(function (Container $container) {
     return new SessionStorage($container['cart.storage.session_key']);
-};
+});
 
-$container['cart.calculator'] = function (Pimple $container) {
+$container['cart.calculator'] = $container->factory(function (Container $container) {
     return new SimpleCost();
-};
+});
 
-$container['cart'] = $container->share(function (Pimple $container) {
+$container['cart'] = function (Container $container) {
     return new Cart(
         $container['cart.storage.session'],
         $container['cart.calculator']
     );
-});
+};
 
 #############
 

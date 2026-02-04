@@ -19,5 +19,14 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'pimple/pimple' => array(
+            'pretty_version' => 'v1.1.1',
+            'version' => '1.1.1.0',
+            'reference' => '2019c145fe393923f3441b23f29bbdfaa5c58c4d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pimple/pimple',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
     ),
 );

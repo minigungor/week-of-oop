@@ -5,8 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/01/demo09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/02/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/03/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/03/demo02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/04/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/05/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/05/demo02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/05/demo03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/05/demo04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/05/demo05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/06/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/07/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/07/demo02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/07/demo03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo02/index06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/index01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/index02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/index03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/index04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo03/index05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/index01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/index02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/index03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/09/demo04/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson05/01/GRASP.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/CartItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/CartItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/BigCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/BigCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/BirthdayCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/BirthdayCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/CalculatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/CalculatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/FourCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/FourCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/FridayCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/FridayCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/MinCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/MinCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/NewYearCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/NewYearCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/cost/SimpleCost.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/cost/SimpleCost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/HybridStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/HybridStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/SessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/SessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/StorageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/StorageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiDbStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiDbStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiHybridStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiHybridStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiSessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/cart/storage/YiiSessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo02/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo02/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo02/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo02/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo02/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo02/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo02/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo02/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo03/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo03/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo04/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo04/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo05/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/lib/Pimple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/tests/Pimple/Tests/Invokable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/tests/Pimple/Tests/NonInvokable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/tests/Pimple/Tests/PimpleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/tests/Pimple/Tests/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo06/vendor/pimple/pimple/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo07/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/04/demo07/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/04/demo07/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/demo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson04/theory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04/theory.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +129,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/thm/projects/week-of-oop/lesson04/02/demo09&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson05/01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
-      <recent name="$PROJECT_DIR$/lesson04/02/demo08/tests" />
-      <recent name="$PROJECT_DIR$/lesson04/02/demo08/cart/storage" />
-      <recent name="$PROJECT_DIR$/lesson04/02/demo08/cart" />
-      <recent name="$PROJECT_DIR$/lesson04/02/demo07/tests" />
+      <recent name="$PROJECT_DIR$/lesson05/01" />
+      <recent name="$PROJECT_DIR$/lesson05" />
+      <recent name="$PROJECT_DIR$/lesson04/04/demo07" />
+      <recent name="$PROJECT_DIR$/lesson04/04/demo06" />
+      <recent name="$PROJECT_DIR$/lesson04/04/demo05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
@@ -102,7 +198,11 @@
       <workItem from="1769910747135" duration="311000" />
       <workItem from="1769911079916" duration="5430000" />
       <workItem from="1769952766316" duration="17996000" />
-      <workItem from="1769988070995" duration="1318000" />
+      <workItem from="1769988070995" duration="12507000" />
+      <workItem from="1770070505490" duration="898000" />
+      <workItem from="1770148336537" duration="28000" />
+      <workItem from="1770157245930" duration="2114000" />
+      <workItem from="1770195308152" duration="4288000" />
     </task>
     <servers />
   </component>

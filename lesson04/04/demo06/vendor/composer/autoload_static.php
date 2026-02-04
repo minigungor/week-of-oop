@@ -11,12 +11,20 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         array (
             'lesson04\\example4\\' => 18,
         ),
+        'P' =>
+        array (
+            'Psr\\Container\\' => 14,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'lesson04\\example4\\' =>
         array (
             0 => __DIR__ . '/../..' . '/..',
+        ),
+        'Psr\\Container\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
         ),
     );
 
@@ -25,7 +33,7 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         array (
             'Pimple' =>
             array (
-                0 => __DIR__ . '/..' . '/pimple/pimple/lib',
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
             ),
         ),
     );

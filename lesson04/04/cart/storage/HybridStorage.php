@@ -1,6 +1,6 @@
 <?php
 
-namespace lesson04\example2\demo09\cart\storage;
+namespace lesson04\example4\cart\storage;
 
 class HybridStorage implements StorageInterface
 {

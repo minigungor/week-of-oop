@@ -1,6 +1,6 @@
 <?php
 
-namespace lesson04\example4\demo03;
+namespace lesson04\example4\demo04;
 
 use lesson04\example4\cart\Cart;
 use lesson04\example4\cart\cost\SimpleCost;
@@ -16,20 +16,20 @@ class Container
 
     private $shared = [];
 
-    public function set($id, $callback)
+    public function set($id, $value)
     {
         $this->shared[$id] = null;
         $this->definitions[$id] = [
-            'cllback' => $callback,
+            'value' => $value,
             'shared' => false,
         ];
     }
 
-    public function setShared($id, $callback)
+    public function setShared($id, $value)
     {
         $this->shared[$id] = null;
         $this->definitions[$id] = [
-            'cllback' => $callback,
+            'value' => $value,
             'shared' => true,
         ];
     }
@@ -40,17 +40,37 @@ class Container
             return $this->shared[$id];
         }
 
-        if(!array_key_exists($id, $this->definitions)) {
-            throw new \Exception("$id is not defined");
+        if(array_key_exists($id, $this->definitions)) {
+            $value = $this->definitions[$id]['value'];
+            $shared = $this->definitions[$id]['shared'];
+        } else {
+            $value = $id;
+            $shared = false;
         }
 
-        $definition = $this->definitions[$id];
-        $component = call_user_func($definition['cllback'], $this);
-        if($definition['shared']) {
+        if(is_string($value)) {
+            $reflection = new \ReflectionClass($value);
+            $arguments = [];
+            if(($constructor = $reflection->getConstructor()) !== null) {
+                foreach ($constructor->getParameters() as $param) {
+                    $paramClass = $param->getClass();
+                    $arguments[] = $paramClass ? $this->get($paramClass->getName()) : null;
+                }
+            }
+            $component = $reflection->newInstanceArgs($arguments);
+        } else {
+            $component = call_user_func($value, $this);
+        }
+
+        if(!$component) {
+            throw new \Exception('Undefined component ' . $id);
+        }
+
+        if($shared) {
             $this->shared[$id] = $component;
         }
-        return $component;
 
+        return $component;
     }
 }
 
@@ -58,27 +78,13 @@ class Container
 
 $container = new Container();
 
-$container->set('cart.storage', function(Container $container) {
+$container->set('lesson04\example4\cart\storage\StorageInterface', function(Container $container) {
     return new SessionStorage('cart');
 });
 
-$container->set('cart.calculator', function(Container $container) {
-    return new SimpleCost();
-});
+$container->set('lesson04\example4\cart\cost\CalculatorInterface', 'lesson04\example4\cart\cost\SimpleCost');
 
-$container->set('cart', function(Container $container) {
-    return new Cart(
-        $container->get('cart.storage'),
-        $container->get('cart.calculator')
-    );
-});
-
-$container->setShared('cart', function(Container $container) {
-    return new Cart(
-        $container->get('cart.storage'),
-        $container->get('cart.calculator')
-    );
-});
+$container->setShared('cart', 'lesson04\example4\cart\Cart');
 
 #############
 

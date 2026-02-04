@@ -1,0 +1,10 @@
+{
+  "require": {
+    "swiftmailer/swiftmailer": "^5.4"
+  },
+  "config": {
+    "audit": {
+      "block-insecure": false
+    }
+  }
+}

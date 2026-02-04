@@ -1,9 +1,9 @@
 <?php
 
-namespace lesson04\example2\demo09\cart;
+namespace lesson04\example4\cart;
 
-use lesson04\example2\demo09\cart\cost\CalculatorInterface;
-use lesson04\example2\demo09\cart\storage\StorageInterface;
+use lesson04\example4\cart\cost\CalculatorInterface;
+use lesson04\example4\cart\storage\StorageInterface;
 
 class Cart
 {

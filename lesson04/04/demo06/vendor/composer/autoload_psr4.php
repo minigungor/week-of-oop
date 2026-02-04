@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'lesson04\\example4\\' => array($baseDir . '/..'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
 );

@@ -1,8 +1,8 @@
 <?php
 
-namespace lesson04\example2\demo09\cart\storage;
+namespace lesson04\example4\cart\storage;
 
-use lesson04\example2\demo09\cart\CartItem;
+use lesson04\example4\cart\CartItem;
 
 interface StorageInterface
 {

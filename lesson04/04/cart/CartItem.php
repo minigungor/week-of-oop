@@ -1,6 +1,6 @@
 <?php
 
-namespace lesson04\example2\demo09\cart;
+namespace lesson04\example4\cart;
 
 class CartItem
 {
