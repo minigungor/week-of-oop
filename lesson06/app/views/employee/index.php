@@ -1,5 +1,6 @@
 <?php
 
+use app\helpers\EmployeeHelper;
 use app\models\Employee;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -34,7 +35,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'last_name',
             'address',
             'email:email',
-            //'status',
+            [
+                'attribute' => 'status',
+                'filter' => EmployeeHelper::getStatusList(),
+                'value' => function (Employee $employee) {
+                    return EmployeeHelper::getStatusName($employee->status);
+                },
+            ],
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Employee $model, $key, $index, $column) {
