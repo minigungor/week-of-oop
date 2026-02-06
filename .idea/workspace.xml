@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson06/app/forms/InterviewJoinForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson06/app/models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/models/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson06/app/models/Interview.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/models/Interview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson06/app/views/interview/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/interview/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson06/app/views/recruit/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/recruit/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson06/app/views/vacation/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/vacation/_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson06/app/views/interview",
+    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson06/app_og",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,11 +54,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson06/app_og" />
       <recent name="$PROJECT_DIR$/lesson06/app/views/interview" />
       <recent name="$PROJECT_DIR$/lesson06/app/forms" />
       <recent name="$PROJECT_DIR$/lesson05/01" />
       <recent name="$PROJECT_DIR$/lesson05" />
-      <recent name="$PROJECT_DIR$/lesson04/04/demo07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
@@ -126,7 +120,7 @@
       <workItem from="1770325814427" duration="5405000" />
       <workItem from="1770332141566" duration="2403000" />
       <workItem from="1770341807400" duration="910000" />
-      <workItem from="1770344296636" duration="10786000" />
+      <workItem from="1770344296636" duration="12852000" />
     </task>
     <servers />
   </component>
