@@ -20,6 +20,11 @@ use Yii;
  */
 class Interview extends \yii\db\ActiveRecord
 {
+    const SCENARIO_CREATE = 'create';
+
+    const STATUS_NEW = 1;
+    const STATUS_PASS = 2;
+    const STATUS_REJECT = 3;
 
 
     /**

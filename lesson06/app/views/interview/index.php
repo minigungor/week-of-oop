@@ -34,6 +34,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'firstName',
             'lastName',
             'email:email',
+            [
+                'attribute' => 'status',
+                'filter' => \app\helpers\InterviewHelper::getStatusList(),
+                'value' => function (Interview $interview) {
+                    return \app\helpers\InterviewHelper::getStatusName($interview->status);
+                }
+            ],
             //'status',
             //'reject_reason',
             //'employee_id',

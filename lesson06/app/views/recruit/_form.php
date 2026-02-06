@@ -12,9 +12,9 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'order_id')->textInput() ?>
+    <?= $form->field($model, 'order_id')->dropDownList(\yii\helpers\ArrayHelper::map(\app\models\Order::find()->asArray()->all(), 'id', 'id')) ?>
 
-    <?= $form->field($model, 'employee_id')->textInput() ?>
+    <?= $form->field($model, 'employee_id')->dropDownList(\yii\helpers\ArrayHelper::map(\app\models\Employee::find()->all(), 'id', 'fullName')) ?>
 
     <?= $form->field($model, 'date')->textInput() ?>
 

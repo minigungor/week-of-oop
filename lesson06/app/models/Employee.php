@@ -39,6 +39,11 @@ class Employee extends \yii\db\ActiveRecord
         return 'employee';
     }
 
+    public function getFullName()
+    {
+        return $this->last_name . ' ' . $this->first_name;
+    }
+
     /**
      * {@inheritdoc}
      */

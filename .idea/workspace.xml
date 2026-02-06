@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson06/app/forms/InterviewJoinForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson05/theory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson05/theory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/app/models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/models/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/app/models/Interview.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/models/Interview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/app/views/interview/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/interview/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/app/views/recruit/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/recruit/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson06/app/views/vacation/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson06/app/views/vacation/_form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/thm/projects/week-of-oop/lesson05/01&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson06/app/views/interview",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mariadb"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson06/app/views/interview" />
+      <recent name="$PROJECT_DIR$/lesson06/app/forms" />
       <recent name="$PROJECT_DIR$/lesson05/01" />
       <recent name="$PROJECT_DIR$/lesson05" />
       <recent name="$PROJECT_DIR$/lesson04/04/demo07" />
-      <recent name="$PROJECT_DIR$/lesson04/04/demo06" />
-      <recent name="$PROJECT_DIR$/lesson04/04/demo05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
@@ -107,7 +118,15 @@
       <workItem from="1770148336537" duration="28000" />
       <workItem from="1770157245930" duration="2114000" />
       <workItem from="1770195308152" duration="4901000" />
-      <workItem from="1770213264655" duration="15020000" />
+      <workItem from="1770213264655" duration="15203000" />
+      <workItem from="1770239162953" duration="633000" />
+      <workItem from="1770251172551" duration="2828000" />
+      <workItem from="1770307103680" duration="1201000" />
+      <workItem from="1770315831390" duration="5882000" />
+      <workItem from="1770325814427" duration="5405000" />
+      <workItem from="1770332141566" duration="2403000" />
+      <workItem from="1770341807400" duration="910000" />
+      <workItem from="1770344296636" duration="10786000" />
     </task>
     <servers />
   </component>
