@@ -5,6 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633bbd9d-5bf1-4ece-a00f-81dbab9eca00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson07/01/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/02/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/03/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/03/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/03/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/04/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/05/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/06/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/01/09.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/07/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/08/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/09/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/10/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/11/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/12/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson07/13/question.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +61,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson06/app_og",
+    "last_opened_file_path": "/home/thm/projects/week-of-oop/lesson07/13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lesson06/app_og" />
-      <recent name="$PROJECT_DIR$/lesson06/app/views/interview" />
-      <recent name="$PROJECT_DIR$/lesson06/app/forms" />
-      <recent name="$PROJECT_DIR$/lesson05/01" />
-      <recent name="$PROJECT_DIR$/lesson05" />
+      <recent name="$PROJECT_DIR$/lesson07/13" />
+      <recent name="$PROJECT_DIR$/lesson07/12" />
+      <recent name="$PROJECT_DIR$/lesson07/11" />
+      <recent name="$PROJECT_DIR$/lesson07/10" />
+      <recent name="$PROJECT_DIR$/lesson07/09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson04/02/demo09" />
@@ -120,7 +145,8 @@
       <workItem from="1770325814427" duration="5405000" />
       <workItem from="1770332141566" duration="2403000" />
       <workItem from="1770341807400" duration="910000" />
-      <workItem from="1770344296636" duration="12852000" />
+      <workItem from="1770344296636" duration="14188000" />
+      <workItem from="1770405393730" duration="7098000" />
     </task>
     <servers />
   </component>
